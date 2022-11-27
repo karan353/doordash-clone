@@ -1,0 +1,39 @@
+.join-container {
+    margin: 100px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.become-img {
+    height: 154px;
+    width: 154px;
+}
+
+.become-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(235, 23, 0);
+}
+
+@media only screen and (min-width: 960px) {
+    .become-img {
+        height: 154px;
+        width: 154px;
+    }
+}

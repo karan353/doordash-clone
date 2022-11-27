@@ -1,0 +1,18 @@
+.food-img {
+    max-height: 190px;
+    border-radius: 8px;
+}
+
+.card {
+    margin: 10px 0;
+}
+
+.useless {
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+}
+
+.useless:hover {
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+}

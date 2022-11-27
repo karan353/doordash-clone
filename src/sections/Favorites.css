@@ -1,0 +1,35 @@
+.favorites-container {
+    padding: 0 7rem;
+    margin: 40px auto;
+}
+
+.fav-header {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.04ch;
+   
+}
+
+.fav-title a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.04ch;
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+}
+
+
+.fav-text {
+    display: flex;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(118, 118, 118);
+}
+
+.card {
+    border: none;
+}

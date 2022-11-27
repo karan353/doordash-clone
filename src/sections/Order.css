@@ -1,0 +1,38 @@
+.order-top-container {
+    margin-bottom: -40px;
+}
+
+.order-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.order-inner-box {
+    max-width: 400px;
+    margin: 30px;
+}
+
+.order-bg {
+    background: #fff0ed;
+}
+
+.order-space-top {
+    margin: 50px 0;
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .placement {
+        order: 1;
+    }
+    
+    .order-center {
+        order: 2;
+    }
+    
+}
+

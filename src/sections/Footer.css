@@ -1,0 +1,22 @@
+.footer-container {
+    padding: 40px 0;
+    overflow-x: hidden;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-row {
+    margin: 0 5px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-header {
+    margin: 5px;
+}

@@ -1,0 +1,82 @@
+/*--------------------------------------------------------------
+  Stlyes used by mobile and desktop
+--------------------------------------------------------------*/
+
+.hero-item  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.hero-item h1  {
+  text-align: center;
+}
+
+.hero-item a  {
+color: white;
+}
+
+.hero-item a:hover  {
+color: white;
+}
+
+.hero-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    background-color: white;
+    border-radius: 10rem;
+    margin-bottom: 1rem;
+}
+
+.hero-input {
+    min-width: 300px;
+    border: none;
+    outline: none;
+}
+
+.hero-serch-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+ Mobile
+--------------------------------------------------------------*/
+.hero-bg {
+    background: rgba(0,0,0,0) url("../assets/background/bg-smallscreen.png") no-repeat scroll 50% 50%/cover padding-box border-box;
+    width: 100vw;
+    min-height: 420px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+}
+
+/*--------------------------------------------------------------
+ Desktop
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) {
+    .hero-bg {
+        background: rgba(0,0,0,0) url("../assets/background/bg-bigscreen.png") no-repeat scroll 50% 50%/cover padding-box border-box;
+        width: 98.8vw;
+        height: 580px;
+        min-height: 420px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 76px;
+    }
+
+}
+
